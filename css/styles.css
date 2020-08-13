@@ -1,0 +1,161 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Faustina', serif;
+}
+
+h1 {
+  margin: 0;
+  padding-top: 70px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 5.62rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Lora', serif;
+  font-size: 1.5rem;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Lora', serif;
+  color: #11999E;
+}
+
+p {
+  margin: 0 auto;
+  font-size: 1.25rem;
+}
+
+a {
+  color: #11999E;
+  margin: 20px;
+  font-size: 1.5rem;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+hr{
+  border: dotted #EAF6F6 10px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+/* this is for the top container */
+.top {
+  position: relative;
+  background-color: #ecfcff;
+}
+
+.subtitle {
+  font-weight: normal;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+}
+
+/* this is for the middle container */
+.middle-container{
+  margin: 100px 0;
+}
+
+.profile img {
+  width: 200px;
+  height: auto;
+}
+
+.profile p{
+  width: 40%;
+  line-height: 2;
+}
+
+.skill-logo {
+  width: 50px;
+  height: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.shadow-extraction {
+  width: 18%;
+  height: auto;
+  float: left;
+  margin-right: 30px;
+}
+
+.advanced-dagger-arts {
+  width: 25%;
+  height: auto;
+  float: right;
+  margin-left: 30px;
+}
+
+.shadow-monarch {
+  width: 40%;
+  height: auto;
+  float: left;
+  margin-right: 30px;
+}
+
+.contact-me p{
+  margin: 50px;
+  font-size: 1.25rem;
+}
+
+.button {
+  background: #3D94F6;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 20px;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button:hover {
+  border: solid #337FED 1px;
+  background: #1E62D0;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+/* this is for the bottom container */
+.bottom-container{
+  background-color: #66bfbf;
+  padding: 30px 0 20px;
+  position: relative;
+}
+
+.bottom-container p{
+  margin-top:20px
+}
+
+.bottom-container a{
+  text-decoration: none;
+}
